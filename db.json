@@ -1,0 +1,19 @@
+{
+  "students": [
+    {
+      "name": "Farsana",
+      "studentID": "Stu_1",
+      "password": "1234",
+      "id": 1
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Cereena",
+      "teacherID": "Tchr_1",
+      "subject": "English",
+      "password": "1234",
+      "id": 1
+    }
+  ]
+}
