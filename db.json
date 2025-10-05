@@ -6,7 +6,10 @@
       "password": "1234",
       "grade": "1",
       "role": "Student",
-      "id": 1
+      "id": 1,
+      "avatar": "/assets/girl/Lawyer.png",
+      "gender": "girl",
+      "passion": "Lawyer"
     }
   ],
   "teachers": [
@@ -26,11 +29,6 @@
       "id": 1
     }
   ],
-  "quizzes": [
-  
-  ],
-  
-  "submissions": [
-    
-  ]
+  "quizzes": [],
+  "submissions": []
 }
