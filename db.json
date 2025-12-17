@@ -6,7 +6,32 @@
       "password": "1234",
       "grade": "1",
       "role": "Student",
-      "id": 1
+      "id": 1,
+      "avatar": "/assets/girl/Astronaut.png",
+      "gender": "girl",
+      "passion": "Astronaut"
+    },
+    {
+      "name": "Shebeel",
+      "studentID": "Stu_2",
+      "password": "1234",
+      "grade": "1",
+      "role": "Student",
+      "id": 2,
+      "avatar": "/assets/boy/Athlete.png",
+      "gender": "boy",
+      "passion": "Athlete"
+    },
+    {
+      "name": "Fawas",
+      "studentID": "Stu_3",
+      "password": "1234",
+      "grade": "1",
+      "role": "Student",
+      "id": 3,
+      "avatar": "/assets/boy/Firefighter.png",
+      "gender": "boy",
+      "passion": "Firefighter"
     }
   ],
   "teachers": [
@@ -24,13 +49,145 @@
       ],
       "role": "Teacher",
       "id": 1
+    },
+    {
+      "name": "Chandana",
+      "teacherID": "Tchr_2",
+      "password": "1234",
+      "grades": [
+        "1",
+        "3"
+      ],
+      "role": "Teacher",
+      "id": 2
     }
   ],
   "quizzes": [
-  
+    {
+      "title": "Maths Basics",
+      "grade": "1",
+      "subject": "Mathematics",
+      "scheduledDate": "2025-09-12",
+      "questions": [
+        {
+          "id": 1,
+          "question": "1+1=?",
+          "options": [
+            "2",
+            "5",
+            "4",
+            "0"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 1757675914149,
+          "question": "2+3=?",
+          "options": [
+            "3",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5"
+        }
+      ],
+      "teacherID": "Tchr_1",
+      "teacherName": "Cereena",
+      "updatedAt": "2025-09-12T12:03:14.534Z",
+      "id": 1
+    },
+    {
+      "title": "English Basics",
+      "grade": "1",
+      "teacherID": "Tchr_1",
+      "teacherName": "Cereena",
+      "subject": "English",
+      "scheduledDate": "2025-09-12",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Color of apple is ____________?",
+          "options": [
+            "red",
+            "pink",
+            "blue",
+            "black"
+          ],
+          "answer": "red"
+        }
+      ],
+      "createdAt": "2025-09-12T12:01:31.001Z",
+      "id": 2
+    }
   ],
-  
   "submissions": [
-    
+    {
+      "quizID": 1,
+      "quizTitle": "Maths Basics",
+      "subject": "Mathematics",
+      "teacherName": "Cereena",
+      "studentID": "Stu_1",
+      "grade": "1",
+      "score": 1,
+      "answers": {
+        "0": "2",
+        "1": "3"
+      },
+      "total": 2,
+      "submittedAt": "2025-09-12T11:20:43.095Z",
+      "id": 1
+    },
+    {
+      "quizID": 2,
+      "quizTitle": "English Basics",
+      "subject": "English",
+      "teacherName": "Cereena",
+      "studentID": "Stu_2",
+      "grade": "1",
+      "score": 0,
+      "answers": {
+        "0": "pink"
+      },
+      "total": 1,
+      "submittedAt": "2025-09-13T00:10:34.959Z",
+      "id": 2
+    },
+    {
+      "quizID": 1,
+      "quizTitle": "Maths Basics",
+      "subject": "Mathematics",
+      "teacherName": "Cereena",
+      "studentID": "Stu_3",
+      "grade": "1",
+      "score": 2,
+      "answers": {
+        "0": "2",
+        "1": "5"
+      },
+      "total": 2,
+      "submittedAt": "2025-09-13T21:22:59.147Z",
+      "id": 3
+    }
+  ],
+  "parentNotes": [
+    {
+      "note": "There will be exam for grade1 students on monday",
+      "date": "2025-09-12",
+      "grade": "all",
+      "teacherID": "Tchr_1",
+      "teacherName": "Cereena",
+      "createdAt": "2025-09-12T11:47:01.028Z",
+      "id": 1
+    },
+    {
+      "note": "PTA meeting will be held on 13/04/2025",
+      "date": "2025-09-12",
+      "grade": "all",
+      "teacherID": "Tchr_1",
+      "teacherName": "Cereena",
+      "createdAt": "2025-09-12T12:04:02.167Z",
+      "id": 2
+    }
   ]
 }
